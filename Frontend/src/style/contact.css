@@ -1,0 +1,50 @@
+/* ===========================================
+contact Section Start
+======================================= */
+
+.body{
+    background-color: #f9f9f9;
+}
+.section-contact-main {
+    max-width: 70rem;
+    margin: 0 auto;
+    margin-top: 9rem;
+    transition: all 0.3s linear;
+  }
+  
+  .section-contact-main .grid {
+    gap: 3.2rem;
+  }
+  
+  .section-contact-main form {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  
+  .section-contact-main input,
+  .section-contact-main textarea {
+    padding: 1.5rem 2rem;
+    border: 0.1rem solid #c9c9c9;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-family: "work sans";
+    width: 100%;
+  }
+  
+  .section-contact-main input[type="submit"] {
+    max-width: 30%;
+    border: none;
+  }
+  
+  .contact-btn  {
+    background-color: #f9a826;
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: "work sans";
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s linear;
+  }
